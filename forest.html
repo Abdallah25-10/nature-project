@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the Forest - Nature's Wonders</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            background-color: #f0f9f4;
+            color: #2f4f4f;
+        }
+        
+        nav {
+            background-color: #2e8b57;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #3cb371;
+            border-radius: 5px;
+        }
+
+        section {
+            background-image: url('https://th.bing.com/th/id/R.57ca0e04c886aa3e019fd74f7450b9dc?rik=F%2fimY2dIUWwJXg&pid=ImgRaw&r=0');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            padding: 100px 20px;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        section p {
+            font-size: 1.4rem;
+            max-width: 800px;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #3cb371;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #2e8b57;
+        }
+
+        @media (max-width: 768px) {
+            section h2 {
+                font-size: 2.5rem;
+            }
+
+            section p {
+                font-size: 1.2rem;
+            }
+
+            nav a {
+                font-size: 16px;
+                padding: 8px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="ocean.html">Ocean</a>
+        <a href="desert.html">Desert</a>
+        <a href="maintain.html">Maintain</a>
+    </nav>
+    <section>
+        <h2>The Forest</h2>
+        <p>The forest is a sanctuary of biodiversity, hosting countless plant and animal species. It's where towering trees whisper stories of time and hidden creatures come to life in the vibrant ecosystem.</p>
+        <p>From serene trails to the bustling canopy, every visit to the forest is a reminder of the Earth's unparalleled beauty.</p>
+        <a href="index.html" class="btn">Back to Home</a>
+    </section>
+</body>
+</html>
