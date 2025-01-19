@@ -1,1 +1,178 @@
-# nature-project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Wonders</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        #home {
+            background-image: url('https://wallpaperaccess.com/full/2416425.jpg');
+        }
+
+        #forest {
+            background-image: url('https://www.massaudubon.org/var/site/storage/images/9/6/3/1/1601369-2-eng-US/1ad028cdcf77-kforesto_Habitat-8230-1920x1280.jpg');
+        }
+
+        #ocean {
+            background-image: url('https://preview.redd.it/oceans-are-the-lifeblood-of-our-planet-they-provide-most-of-v0-530isylh3epb1.jpg?width=1080&crop=smart&auto=webp&s=954b7c6bcd8332ee46a189bb99976692cec26786');
+        }
+
+        #desert {
+            background-image: url('https://www.sahararelax.com/wp-content/uploads/2021/09/2-magical-nights-in-erg-chagag-dunes.jpg');
+        }
+
+        #maintain {
+            background-image: url('https://wallpaperaccess.com/full/2416436.jpg');
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            section h2 {
+                font-size: 2rem;
+            }
+
+            section p {
+                font-size: 1rem;
+            }
+
+            nav {
+                padding: 10px;
+            }
+
+            nav a {
+                font-size: 16px;
+            }
+        }
+
+        .mobile-nav {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-nav {
+                display: block;
+                text-align: center;
+                background-color: #333;
+                padding: 10px;
+            }
+
+            .mobile-nav a {
+                display: block;
+                padding: 10px;
+                margin: 5px;
+                font-size: 18px;
+                text-transform: uppercase;
+                color: white;
+            }
+
+            nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="forest.html">Forest</a>
+        <a href="ocean.html">Ocean</a>
+        <a href="desert.html">Desert</a>
+        <a href="maintain.html">Maintain</a>
+    </nav>
+
+    <div class="mobile-nav">
+        <a href="forest.html">Forest</a>
+        <a href="ocean.html">Ocean</a>
+        <a href="desert.html">Desert</a>
+        <a href="maintain.html">Maintain</a>
+    </div>
+
+    <section id="home">
+        <h2>Welcome to Nature's Wonders</h2>
+        <p>Explore the beauty and diversity of our planet through its forests, oceans, deserts, and more.</p>
+    </section>
+
+    <section id="forest">
+        <h2>Explore the Forest</h2>
+        <p>The forest is full of life, from towering trees to small insects. It's a place where nature thrives, offering a peaceful escape and fresh air.</p>
+    </section>
+
+    <section id="ocean">
+        <h2>Discover the Ocean</h2>
+        <p>The ocean is vast and mysterious, home to countless species of marine life. Its endless waves create a calming atmosphere and inspire wonder.</p>
+    </section>
+
+    <section id="desert">
+        <h2>Wander the Desert</h2>
+        <p>The desert is a land of extremes, with scorching heat during the day and chilly nights. Its beauty lies in the vastness and the resilience of life in such harsh conditions.</p>
+    </section>
+
+    <section id="maintain">
+        <h2>Maintain Our Planet</h2>
+        <p>It's our responsibility to protect and preserve these natural wonders. Small steps like reducing waste and supporting conservation efforts make a big difference.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nature's Wonders. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
